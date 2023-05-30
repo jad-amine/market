@@ -1,0 +1,2 @@
+body{font-family:Arial,sans-serif}nav{background-color:#45cd23}footer,nav{color:#000;padding:1em;text-align:center}footer{background-color:#59d437;bottom:0;display:flex;justify-content:space-evenly;position:fixed;width:100%}footer p{background-color:#24c512;border-radius:20px;padding:.5em}.product-grid{grid-gap:1rem;display:grid;gap:1rem;grid-template-columns:repeat(3,1fr);padding:1em}.product{border:1px solid #d4af37;padding:1em;text-align:center}.product img{height:auto;width:100%}
+/*# sourceMappingURL=main.0f4fc67e.css.map*/
