@@ -1,33 +1,16 @@
 import React from 'react';
 import './App.css'; // Assuming you have an App.css file for styling
+import Footer from './layouts/Footer';
+import Navbar from './layouts/Navbar';
+import Category from './components/Category';
 
-const Navbar = () => (
-  <nav>
-    <h1>Website Title</h1>
-    {/* Add other navbar elements here */}
-  </nav>
-);
 
-const Footer = () => (
-  <footer>
-    <p>Website Footer</p>
-    {/* Add other footer elements here */}
-  </footer>
-);
 
-const Product = ({ product }) => (
-  <div className="product">
-    <img src={product.image} alt={product.title} />
-    <h2>{product.title}</h2>
-    <p>{product.description}</p>
-  </div>
-);
-
-const App = ({ products }) => (
+const App = () => (
   <div>
     <Navbar />
     <div className="product-grid">
-      {products.map((product, index) => <Product key={index} product={product} />)}
+      {categories.map((product, index) => <Category key={index} product={product} />)}
     </div>
     <Footer />
   </div>
@@ -35,21 +18,21 @@ const App = ({ products }) => (
 
 export default App;
 
-const products = [
+const categories = [
     {
-      title: 'Product 1',
-      description: 'This is product 1',
-      image: 'https://via.placeholder.com/150?text=Product+1'
+      title: 'Plastic',
+      description: 'Restaurant supplies',
+      image: 'https://3.imimg.com/data3/OF/EI/MY-1057541/1-kg-plastic-container-500x500.jpg'
     },
     {
-      title: 'Product 2',
-      description: 'This is product 2',
-      image: 'https://via.placeholder.com/150?text=Product+2'
+      title: 'Bags',
+      description: 'All colors',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb2_pS4LPznMjdwkQIPQn5lONRupBDqzHld1MSh9j8ZTCQ7kac6ChLwiTQvkG_BFudzzA&usqp=CAU'
     },
     {
-      title: 'Product 3',
-      description: 'This is product 3',
-      image: 'https://via.placeholder.com/150?text=Product+3'
+      title: 'Cups',
+      description: 'Paper and plastic',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ZzoZuPavjkLb5oVzofDIwJxtcOIvGJxgzA&usqp=CAU'
     },
     {
       title: 'Product 4',
