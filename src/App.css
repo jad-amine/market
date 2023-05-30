@@ -1,24 +1,30 @@
 body {
-  background-color: #000;
-  color: #d4af37;
   font-family: Arial, sans-serif;
 }
 
 nav {
-  background-color: #d4af37;
+  background-color: #45cd23;
   padding: 1em;
   color: #000;
   text-align: center;
 }
 
 footer {
-  background-color: #d4af37;
+  background-color: #59d437;
   padding: 1em;
   color: #000;
   text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer p {
+ background-color: #24c512;
+  padding: 0.5em;
+  border-radius: 20px;
 }
 
 .product-grid {

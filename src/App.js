@@ -10,7 +10,9 @@ const Navbar = () => (
 
 const Footer = () => (
   <footer>
-    <p>Website Footer</p>
+    <p>Plastic</p>
+    <p>Cups</p>
+    <p>Bags</p>
     {/* Add other footer elements here */}
   </footer>
 );
@@ -37,18 +39,18 @@ export default App;
 
 const products = [
     {
-      title: 'Product 1',
-      description: 'This is product 1',
+      title: 'Plastic',
+      description: 'Restaurant supplies',
       image: 'https://via.placeholder.com/150?text=Product+1'
     },
     {
-      title: 'Product 2',
-      description: 'This is product 2',
+      title: 'Bags',
+      description: 'All colors',
       image: 'https://via.placeholder.com/150?text=Product+2'
     },
     {
-      title: 'Product 3',
-      description: 'This is product 3',
+      title: 'Cups',
+      description: 'Paper and plastic',
       image: 'https://via.placeholder.com/150?text=Product+3'
     },
     {
