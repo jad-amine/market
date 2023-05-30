@@ -23,7 +23,7 @@ const Product = ({ product }) => (
   </div>
 );
 
-const App = () => (
+const App = ({ products }) => (
   <div>
     <Navbar />
     <div className="product-grid">
